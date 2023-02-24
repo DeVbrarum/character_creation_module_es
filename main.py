@@ -42,7 +42,7 @@ def special(char_name: str, char_class: str) -> str:
 
 def start_training(char_name: str, char_class: str) -> str:
     """
-    Detalles de la clase ha elejir entre guerrero, mago o sanador.
+    Detalles de la clase ha elegir entre guerrero, mago o sanador.
     Entrenar las habilidades entre ataque, defensa y habilidad especial.
     O escribir skip para terminar el entrenamiento.
     """
@@ -72,7 +72,7 @@ def start_training(char_name: str, char_class: str) -> str:
 
 
 def choice_char_class() -> str:
-    """Elije la clase que quieres, entre guerrero, mago y sanador."""
+    """Introducir la clase que quieres, entre guerrero, mago y sanador."""
     approve_choice: str = None
     char_class: str = None
     while approve_choice != 'y':
